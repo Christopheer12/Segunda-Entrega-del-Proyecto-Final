@@ -35,14 +35,14 @@ function bancos() {
 
     }
 
-    
+
     localStorage.setItem("dinero_solicitado", dinero);
     localStorage.setItem("cantidad_de_coutas", cuotas);
     localStorage.setItem("banco_seleccionado", bancosSeleccion);
     console.log(localStorage.getItem("dinero_solicitado"));
     console.log(localStorage.getItem("cantidad_de_coutas"));
     console.log(localStorage.getItem("banco_seleccionado"));
-    
+
 
 }
 
@@ -60,8 +60,8 @@ function datos() {
     console.log(localStorage.getItem("apellido Completos"));
     console.log(localStorage.getItem("numero Telefonico"));
     console.log(localStorage.getItem("correo Electronico"));
-    
-    
+
+
 
 }
 
