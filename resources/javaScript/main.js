@@ -3,8 +3,6 @@ const Especial = 36 / 100;
 const IUDU = 50 / 100;
 const Santander = 55.5 / 100;
 
-
-
 function bancos() {
     let dinero = parseInt(document.getElementById("dinero_a_prestar").value);
     let cuotas = parseInt(document.getElementById("cantidad_de_cuotas").value);
