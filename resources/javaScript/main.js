@@ -1,9 +1,9 @@
-
-const ESPACIO = (" ");
 const UVA = 18 / 100;
 const Especial = 36 / 100;
 const IUDU = 50 / 100;
 const Santander = 55.5 / 100;
+
+
 
 function bancos() {
     let dinero = parseInt(document.getElementById("dinero_a_prestar").value);
@@ -36,6 +36,10 @@ function bancos() {
             break;
 
     }
-    
+    localStorage.setItem("dinero_solicitado", dinero);
+    localStorage.setItem("cantidad_de_coutas", cuotas);
+    localStorage.setItem("banco_seleccionado", bancosSeleccion);
+
 }
+
 
