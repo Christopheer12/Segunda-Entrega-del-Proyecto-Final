@@ -46,4 +46,22 @@ function bancos() {
 
 }
 
+function datos() {
+    let nombreCompleto = document.getElementById("nombreCompleto").value;
+    let apellidoCompleto = document.getElementById("apellidoCompleto").value;
+    let numeroTelefonico = parseInt(document.getElementById("numeroTelefonico").value);
+    let correoElectronico = document.getElementById("correoElectronico").value;
+
+    localStorage.setItem("nombre Completo", nombreCompleto);
+    localStorage.setItem("apellido Completos", apellidoCompleto);
+    localStorage.setItem("numero Telefonico", numeroTelefonico);
+    localStorage.setItem("correo Electronico", correoElectronico);
+    console.log(localStorage.getItem("nombre Completo"));
+    console.log(localStorage.getItem("apellido Completos"));
+    console.log(localStorage.getItem("numero Telefonico"));
+    console.log(localStorage.getItem("correo Electronico"));
+    
+    
+
+}
 
